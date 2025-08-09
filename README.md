@@ -48,11 +48,19 @@ This repository contains two automated test scripts using Selenium WebDriver and
 
 ```
 JUnit-Automation/
-├── MyJUnit.java               # Task 1 test class
-├── DseTableScraperTest.java   # Task 2 test class
-├── dse_table_output.txt       # Sample output for Task 2
+├── gradle/
+│   └── wrapper/               # Gradle wrapper files
+├── src/
+│   └── test/
+│       └── java/              # Test source files (MyJUnit.java, DseTableScraperTest.java)
+├── build.gradle               # Gradle build script
+├── settings.gradle            # Gradle settings
+├── gradlew                    # Gradle wrapper (Unix)
+├── gradlew.bat                # Gradle wrapper (Windows)
+├── dse_table_output.txt       # Output produced by Task 2
 ├── README.md                  # This file
-└── .gitignore
+└── .gitignore                 # Excluded files
+
 ```
 
 ## How to Run
